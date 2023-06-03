@@ -1,0 +1,91 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi","good day","Greetings","what's up?","how is it going?"],
+  "responses": ["Hello! \n\n\n\n\n Author: Abdullah Ahmad Alzahrani - Email:abdullahmadalz@gmail.com","Hey! \n\n\n\n\n Author: Abdullah Ahmad Alzahrani - Email:abdullahmadalz@gmail.com","What can I do for you?\n\n\n\n\n Author: Abdullah Ahmad Alzahrani - Email:abdullahmadalz@gmail.com"]
+  },
+
+  {"tag": "name",
+  "patterns": ["what is your name","name","what's your name","who are you","what should I call you"],
+  "responses": ["You can call me ZERO","I'm ZERO","I'm ZERO your virtual assistant"]
+  },
+
+  {"tag": "University",
+  "patterns": ["what is umm alqura university", "how many courses are there in this university"],
+  "responses": ["Umm Al-Qura University (UQU) is a renowned public university located in Makkah, Saudi Arabia. \n\n It is known for its specialization in Islamic studies, Arabic language, and other disciplines.\n Umm Al-Qura University was established in 1949 as a college and later transformed into a university in 1981. \n\n Over the years, it has grown and expanded its academic programs to include various fields such as computer science,\n engineering, medicine, sciences, business, and more. \n Umm Al-Qura University is highly respected within Saudi Arabia and has contributed significantly to the education and research sectors in the country.\n\n At the end I was created by one of Umm-Alqura University Student his name Abdullah Ahmad"]
+  },
+
+   {"tag": "courseDuration",
+  "patterns": ["how long will be Bachelors Degree", "how long will it take to complete Bachelors Degree"],
+  "responses": ["Our university offers 4 year long Bachelors Degree on Literary majors,\n 5 year long on Scientific majors and 7 year long Medical majors.\n You can finish it earlier"]
+  },
+
+   {"tag": "Location",
+  "patterns": ["location","where is it located","what is the location of the university"],
+  "responses": ["Umm Al-Qura University is located in Makkah Al-Mukarramah, Saudi Arabia.\n Its main headquarters is in Al-Abidiyah \n but it has several branches in the villages surrounding the city"]
+  },
+
+  {"tag": "semesters",
+  "patterns": ["how many semesters are there in a year","how many semesters one should study in a year"],
+  "responses": ["There are three semesters in a year. There is a possibility to study in the summer semesters"]
+  },
+
+  {"tag": "semDuration",
+  "patterns": ["how many months are there in a semester","how long will be a single semester"],
+  "responses": ["The single semester will be around 3 months. The summer semester will take probably from 6 to 8 weeks"]
+  },
+
+  {"tag": "studentRequirements",
+  "patterns": ["what are the student requirements for admission","entry requirements","admission requirements"],
+  "responses": ["You need a national identity. An academic record from secondary school, with a GPA higher than (80%),\n because there are limited opportunities,\n and the person with the highest GPA has priority in registration. \nYou must pass the Al-Qudrat and Al-Thasili test from (Qiyas), and the required score in each tests is higher than (70).\n Do not worry, every year the required percentages are changed (:"]
+  },
+
+  {"tag": "classes",
+  "patterns": ["how many classes will be there in a day","how long are the classes?"],
+  "responses": ["Classes hours vary from one major to another.\n According to the course hours,\n but usually there are two-hour pair classes and one-hour individual classes"]
+  },
+
+  {"tag": "teachingStyle",
+  "patterns": ["what is the teaching style of this university?","Is the teaching pattern different from other university?","what is the teaching format?"],
+  "responses": ["Our University has different teaching.Its all free. \n There are two teaching patterns. Face to face at the university building and online by BlackBoard from home. Lecture, Tutorial and Workshop.\nYou can provide us with your contact details and our counselors shall reach out to you and provide you with further details."]
+  },
+
+  {"tag": "exams",
+  "patterns": ["what are the exams like?","What is the exam pattern"],
+  "responses": ["There are Quizzes, midterm exams and finals exams. You must get higher than 60 marks to pass (:"]
+  },
+
+  {"tag": "hours",
+  "patterns": ["what are your hours","when are you guys open","what your hours of operation"],
+  "responses": ["You can message us here at any hours. But deanships of Umm-Alqura University will be open from 8:00 am to 2:00 pm only."]
+  },
+
+  {"tag": "funActivities",
+  "patterns": ["will there be any extra curriculum activities?","does the university conducts any fun program"],
+  "responses": ["Yes, of course there are facilities in the university for recreational activities"]
+  },
+
+  {"tag": "facilities",
+  "patterns": ["what facilities are provided by the university?","what are the facilities of university for students", "what are the university infrastructures "],
+  "responses": ["With excellent education facilities, Our university provides various other facilities like 24 hours internet, library, classes with AC, discusson room, canteen, parking space, and student service for any students queries."]
+  },
+
+  {"tag": "fee",
+  "patterns": ["how much is the universty fee","what is the fee structure"],
+  "responses": ["It is all free"]
+  },
+
+  {"tag": "goodbye",
+  "patterns": ["cya","See you later","Goodbye","I am leaving","Have a Good Day","bye","see ya"],
+  "responses": ["Sad to see you go :(","Talk you later","Goodbye"]
+  },
+
+  {"tag": "invalid",
+    "patterns": ["","gvsd","asbhk"],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+  },
+
+  {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  }
+]}
